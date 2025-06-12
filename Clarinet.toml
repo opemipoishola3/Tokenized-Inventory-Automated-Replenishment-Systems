@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.demand-sensing]
+path = 'contracts/demand-sensing.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.optimization-algorithm]
 path = 'contracts/optimization-algorithm.clar'
 clarity_version = 2
